@@ -31,4 +31,5 @@ legend('WHT @ 10 kHz','Sym4 @ 10 kHz','fontsize',FS)
 xlabel('Sorted Coefficinet')
 ylabel('Total Per-Sample Energy')
 a = get(gca,'XTickLabel');
+
 set(gca,'XTickLabel',a,'fontsize',FS)
